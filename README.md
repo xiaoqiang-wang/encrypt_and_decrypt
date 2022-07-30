@@ -14,3 +14,12 @@ g++ main.cpp -std=c++11 -o a.out
 
 #### decrypt
 ./a.out de_code output_file_name valid_size  max_file_index
+
+
+文件加密、解密
+ [文件名称]， 中间文件个数 
+./a.out en_code aztec_small.rar 1
+
+
+ [ 输出文件名称], [文件有效size]， [中间文件个数。]
+./a.out de_code new.rar 463653 1
