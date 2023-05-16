@@ -1,7 +1,7 @@
 This project used for encrypt && decrypt files.
 
 
-g++ main.cpp -std=c++11 -o a.out
+g++ main.cpp -ggdb -std=c++11 -o a.out
 
 
 
