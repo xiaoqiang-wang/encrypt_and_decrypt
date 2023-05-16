@@ -23,3 +23,6 @@ g++ main.cpp -ggdb -std=c++11 -o a.out
 
  [ 输出文件名称], [文件有效size]， [中间文件个数。]
 ./a.out de_code new.rar 463653 1
+
+
+./a.out de_code new_ALG_ALL.rar 170490716 5000
