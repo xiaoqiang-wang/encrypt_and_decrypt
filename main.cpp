@@ -174,6 +174,9 @@ uint32_t Trans(std::string in,uint32_t to_file_cnt){
 
                                 std::string file_name = file_name_prefix+"_"+to_string(file_index)+".txt";
                                 ofstream out_file(file_name.data(), std::ios::binary | std::ios::app);
+                                
+                                cout<<"file_index :"<<std::dec<<file_index<<std::endl;
+                                cout<<"byte_index :"<<std::dec<<i<<std::endl;
 
 
                                 std::string hex_res = char_to_hex(data);
